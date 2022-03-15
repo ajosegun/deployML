@@ -1,0 +1,9 @@
+django
+djangorestframework
+django-crispy-forms
+numpy 
+pandas 
+sklearn 
+pickle5
+whitenoise
+isort
