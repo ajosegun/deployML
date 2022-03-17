@@ -8,6 +8,14 @@
     <title>Status</title>
 </head>
 <body>
-    <h2>Buying Status: {{data}}</h2>
+    <h2>
+        {% if  car_buying_data %}
+            Buying Status: {{car_buying_data}}
+        {% elif diabetes_data %}
+            {{diabetes_data}}
+        {% else  %}
+
+        {% endif  %}
+    </h2>
 </body>
 </html>

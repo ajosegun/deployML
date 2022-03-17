@@ -10,3 +10,16 @@ class Customer(models.Model ):
 
     def __str__(self):
             return self.gender
+
+class Diabetes(models.Model ):
+    pregnancies = models.IntegerField(null=False, blank= False)
+    glucose = models.IntegerField(null=False, blank= False)
+    bloodPressure = models.IntegerField(null=False, blank= False)
+    skinThickness = models.IntegerField(null=False, blank= False)
+    insulin = models.IntegerField(null=False, blank= False)
+    bmi = models.DecimalField(null=False, blank= False, decimal_places=1, max_digits=3)
+    diabetesPedigreeFunction = models.DecimalField(null=False, blank= False, decimal_places=3, max_digits=4)
+    age = models.IntegerField(null=False, blank= False)
+
+    # def __str__(self):
+    #         return self.gender

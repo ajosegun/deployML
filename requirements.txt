@@ -7,3 +7,4 @@ sklearn
 pickle5
 whitenoise
 isort
+joblib
